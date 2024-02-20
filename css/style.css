@@ -1,0 +1,43 @@
+@import "./reset.css";
+
+:root {
+  --primary-color: black;
+  --secondary-color: #6a6a6a;
+  --primary-bg-color: #fff2f2;
+  --secondary-bg-color: white;
+
+  --font-primary: "Inter";
+  --font-secondary: "arial";
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-color);
+}
+.page-container {
+  max-width: 60rem;
+  margin: 10px auto;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  font-size: 1.5 rem;
+  margin-bottom: 1 rem;
+  font-weight: bold;
+}
+
+.nav-bar > nav > ul {
+  display: flex;
+  column-gap: 20px;
+}
+
+.nav-bar > nav > ul > li {
+  list-style: none;
+}
+.nav-bar > nav > ul > li > a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
