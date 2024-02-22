@@ -120,6 +120,27 @@ body {
   margin: 3rem;
 }
 
-.Feature-photo > div:first-child > div {
+.innerdiv {
+  display: flex;
+}
+
+.photodiv {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+/* .photodiv > div:first-child {
+  margin: 1rem;
+}
+
+.photodiv > div:last-child {
+  margin: 1rem;
+} */
+
+/* .photodiv img {
+  margin: 1rem;
+} */
+.Feature-photo > div:last-child > div {
+  margin: 0.5rem;
 }
